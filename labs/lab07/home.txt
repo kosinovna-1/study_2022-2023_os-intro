@@ -1,0 +1,22 @@
+code.txt
+Downloads
+git_key_ed.txt
+git_key_ed.txt.pub
+git_key_rsa.txt
+git_key_rsa.txt.pub
+GNUstep
+newdir
+public
+public_html
+tmp
+work
+Видео
+Документы
+Загрузки
+Изображения
+Музыка
+Общедоступные
+Отчёты
+Рабочий стол
+Численные методы
+Шаблоны
