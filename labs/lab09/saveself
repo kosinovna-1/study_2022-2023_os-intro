@@ -1,0 +1,2 @@
+cp saveself backup
+tar -cf backup/saveself saveself

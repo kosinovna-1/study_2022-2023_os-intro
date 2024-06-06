@@ -1,0 +1,5 @@
+let s = ((find * -maxdepth 0))
+for file in s
+do 
+	echo $file 
+done
