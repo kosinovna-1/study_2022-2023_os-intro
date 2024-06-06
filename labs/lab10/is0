@@ -1,0 +1,14 @@
+x=$1
+
+if ((x>0))
+then
+   	echo "x > 0"
+else
+   	if ((x<0))
+   	then
+   		echo "x < 0"
+   	else
+   		echo "x = 0"
+   	fi
+fi
+

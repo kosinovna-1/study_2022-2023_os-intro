@@ -1,0 +1,4 @@
+for A in $(ls $1)
+do
+	tar -cf $1/arhiv_$A $1/$A 
+done

@@ -1,0 +1,16 @@
+VAR=$1
+
+if [[ $VAR =~ ^[0-9]+$ ]]; then
+
+   	echo "${VAR} is a number"
+   	VAR+=1
+	while ((VAR-=1))
+	do
+		touch $VAR.txt
+	done
+
+else
+
+   echo "${VAR} is not a number"
+
+fi
