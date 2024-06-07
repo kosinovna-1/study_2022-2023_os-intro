@@ -1,0 +1,7 @@
+x=/usr/share/man/man1/$1.1.bz2
+if [ ! -f "$x" ]
+then
+	echo Not command $1
+else
+	less $x
+fi

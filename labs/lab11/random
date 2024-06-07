@@ -1,0 +1,16 @@
+x=$1
+A=(a b c d e f g h i j k l m n o p q r s t u v w x y z)
+B=''
+((x+=1))
+while
+((x-=1))
+do
+	y=$RANDOM
+	while 
+	((y>32759))
+	do
+		y=$RANDOM
+	done
+	B+=${A[$y%26]}
+done
+echo $B
