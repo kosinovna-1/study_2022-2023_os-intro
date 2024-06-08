@@ -1,0 +1,4 @@
+list=($(find $1 -name \"\*.$2\" -print))
+echo $list
+n=${list[*]}
+echo 'Files of format' .$2 '=' $n

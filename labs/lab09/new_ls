@@ -1,5 +1,13 @@
-let s = ((find * -maxdepth 0))
-for file in s
-do 
-	echo $file 
+list=($(ls $*))
+pr=($(ls -l $*))
+n=${#list[*]}
+echo 'Files and papkas:' $n
+x=0
+t=2
+while 
+	((x<n))
+do
+	echo $((x+1)) ':' ${pr[t]} ${list[$x]} 
+	x=$((x+1))
+	t=$((t+9))
 done

@@ -1,0 +1,11 @@
+list=($(ls $*))
+n=${#list[*]}
+echo 'Files:' $n
+x=0
+while 
+	((x<n))
+do
+	echo Hello
+	x=$((x+1))
+	echo $x
+done

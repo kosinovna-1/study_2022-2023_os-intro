@@ -1,0 +1,9 @@
+итого 35
+-rw-r--r-- 1 nakosinov studsci  2457 мар 19 20:39 CHANGELOG.md
+-rw-r--r-- 1 nakosinov studsci 18657 мар 19 20:39 LICENSE
+-rw-r--r-- 1 nakosinov studsci   398 мар 19 20:39 package.json
+-rw-r--r-- 1 nakosinov studsci  5653 мар 19 20:39 README.git-flow.md
+-rw-r--r-- 1 nakosinov studsci    36 мар 19 20:39 README.md
+-rw-r--r-- 1 nakosinov studsci    71 мар 19 20:39 README.ru.md
+drwxr-xr-x 5 nakosinov studsci  2048 июн  7 19:17 report
+drwxr-xr-x 2 nakosinov studsci  2048 мар 19 20:39 scripts
